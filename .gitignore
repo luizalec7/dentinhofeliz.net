@@ -1,0 +1,21 @@
+# Ignore a pasta .vs, onde estão os arquivos temporários do Visual Studio
+.vs/
+
+# Ignore arquivos de build
+bin/
+obj/
+
+# Ignore arquivos de configuração do usuário
+*.user
+*.suo
+
+# Ignore arquivos de log
+*.log
+
+# Ignore arquivos de banco de dados locais
+*.mdf
+*.ldf
+
+# Ignore arquivos de configuração do ambiente
+appsettings.Development.json
+appsettings.Staging.json
