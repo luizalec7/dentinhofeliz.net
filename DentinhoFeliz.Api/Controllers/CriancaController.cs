@@ -3,7 +3,7 @@ using DentinhoFeliz.Application.DTOs;
 using DentinhoFeliz.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DentinhoFeliz.Api.Controllers
+namespace DentinhoFeliz.DentinhoFeliz.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

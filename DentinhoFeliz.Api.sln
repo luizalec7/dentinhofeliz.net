@@ -3,13 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DentinhoFeliz.Api", "DentinhoFeliz.Api.csproj", "{86DDB00C-5456-4C08-AE59-E5D7041D900C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DentinhoFeliz", "DentinhoFeliz.csproj", "{86DDB00C-5456-4C08-AE59-E5D7041D900C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DentinhoFeliz.Application", "..\Biblioteca de Classes\DentinhoFeliz.Application.csproj", "{8D9C75B1-0C19-4298-8117-FD7CAF2CBA82}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DentinhoFeliz.Domain", "..\DentinhoFeliz.Domain\DentinhoFeliz.Domain.csproj", "{FB24CE50-8486-4A42-9D99-33728B5880BC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DentinhoFeliz.Infrastructure", "..\DentinhoFeliz.Infrastructure\DentinhoFeliz.Infrastructure.csproj", "{AF198A20-FACF-43BF-8D46-CECFC7D10E56}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{CAF8264E-69BC-46C2-BF23-D0683B8139EE}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,18 +20,6 @@ Global
 		{86DDB00C-5456-4C08-AE59-E5D7041D900C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86DDB00C-5456-4C08-AE59-E5D7041D900C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86DDB00C-5456-4C08-AE59-E5D7041D900C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8D9C75B1-0C19-4298-8117-FD7CAF2CBA82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8D9C75B1-0C19-4298-8117-FD7CAF2CBA82}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8D9C75B1-0C19-4298-8117-FD7CAF2CBA82}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8D9C75B1-0C19-4298-8117-FD7CAF2CBA82}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FB24CE50-8486-4A42-9D99-33728B5880BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FB24CE50-8486-4A42-9D99-33728B5880BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FB24CE50-8486-4A42-9D99-33728B5880BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FB24CE50-8486-4A42-9D99-33728B5880BC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AF198A20-FACF-43BF-8D46-CECFC7D10E56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AF198A20-FACF-43BF-8D46-CECFC7D10E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AF198A20-FACF-43BF-8D46-CECFC7D10E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AF198A20-FACF-43BF-8D46-CECFC7D10E56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

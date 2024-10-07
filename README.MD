@@ -13,3 +13,6 @@ Exibição de informações educativas sobre higiene bucal.
 # Requisitos Não Funcionais
 A aplicação deve ser escalável para suportar múltiplos usuários.
 Deve ser segura, protegendo os dados de cada usuário.
+
+# Membros do projeto
+

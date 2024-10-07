@@ -9,6 +9,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <Content Include="Properties\launchSettings.json" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.8">
@@ -16,12 +20,6 @@
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.8" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<ProjectReference Include="..\Biblioteca de Classes\DentinhoFeliz.Application.csproj" />
-		<ProjectReference Include="..\DentinhoFeliz.Domain\DentinhoFeliz.Domain.csproj" />
-		<ProjectReference Include="..\DentinhoFeliz.Infrastructure\DentinhoFeliz.Infrastructure.csproj" />
 	</ItemGroup>
 
 </Project>
