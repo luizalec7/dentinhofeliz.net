@@ -1,4 +1,6 @@
-﻿using DentinhoFeliz.Domain.Entities;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using DentinhoFeliz.Domain.Entities;
 using DentinhoFeliz.Domain.Interfaces;
 
 namespace DentinhoFeliz.Application.Services

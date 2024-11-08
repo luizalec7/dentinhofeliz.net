@@ -1,0 +1,36 @@
+﻿@model IEnumerable<DentinhoFeliz.Application.ViewModels.CriancaViewModel>
+
+@{
+    ViewData["Title"] = "Lista de Crianças";
+}
+
+<h2>Lista de Crianças</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Adicionar Nova Criança</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Email do Responsável</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var crianca in Model)
+        {
+            <tr>
+                <td>@crianca.Nome</td>
+                <td>@crianca.Idade</td>
+                <td>@crianca.EmailResponsavel</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@crianca.Id" class="btn btn-sm btn-warning">Editar</a>
+                    <a asp-action="Delete" asp-route-id="@crianca.Id" class="btn btn-sm btn-danger">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
